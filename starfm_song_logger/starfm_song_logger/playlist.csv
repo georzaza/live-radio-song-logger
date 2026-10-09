@@ -1,0 +1,3 @@
+﻿session_id,track_entry_id,first_detected_local,last_confirmed_local,artist,title,shazam_track_id,recognition_count,status,notes
+6375a0ac-f053-4e69-a29a-6583b596abf7,b1e2ae1e-87d2-4c14-9527-1941493e25e1,2026-10-09T21:39:11+03:00,2026-10-09T21:43:32+03:00,Austin Marin,Loving You,863814140,23,CONFIRMED_MATCH,Repeated ShazamIO match; song start/end are approximate detection times.
+6375a0ac-f053-4e69-a29a-6583b596abf7,23386974-94f6-47ac-bf06-c2a8c2836d5c,2026-10-09T21:45:56+03:00,2026-10-09T21:49:56+03:00,Fallen Vessel,The Ocean Between,845694295,21,CONFIRMED_MATCH,Repeated ShazamIO match; song start/end are approximate detection times.

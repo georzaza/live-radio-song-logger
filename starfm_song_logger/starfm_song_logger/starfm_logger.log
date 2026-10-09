@@ -1,0 +1,301 @@
+2026-10-09 21:22:26,032 | INFO | Monitoring started. Press Ctrl+C to stop.
+2026-10-09 21:22:26,032 | INFO | Results: C:\Users\creat\dev\music\starfm_song_logger\starfm_song_logger\playlist.csv
+2026-10-09 21:22:26,032 | INFO | Text list: C:\Users\creat\dev\music\starfm_song_logger\starfm_song_logger\playlist.txt
+2026-10-09 21:22:26,032 | INFO | Audio window: 12s | recognition start interval: 12s | confirmations: 2
+2026-10-09 21:22:26,032 | INFO | No full broadcast is saved; only the rolling in-memory buffer is retained.
+2026-10-09 21:22:26,032 | INFO | Connecting to the live audio stream...
+2026-10-09 21:22:26,032 | INFO | Monitoring stopped. Playlist files are saved.
+2026-10-09 21:22:26,032 | ERROR | Fatal error: 'Shazam' object does not support the asynchronous context manager protocol
+Traceback (most recent call last):
+  File "C:\Users\creat\dev\music\starfm_song_logger\starfm_song_logger\starfm_logger.py", line 371, in main
+    asyncio.run(monitor(args))
+  File "C:\Users\creat\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\creat\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\creat\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\creat\dev\music\starfm_song_logger\starfm_song_logger\starfm_logger.py", line 247, in monitor
+    async with Shazam() as shazam:
+               ^^^^^^^^
+TypeError: 'Shazam' object does not support the asynchronous context manager protocol
+2026-10-09 21:23:39,092 | INFO | Monitoring started. Press Ctrl+C to stop.
+2026-10-09 21:23:39,092 | INFO | Results: C:\Users\creat\dev\music\starfm_song_logger\starfm_song_logger\playlist.csv
+2026-10-09 21:23:39,092 | INFO | Text list: C:\Users\creat\dev\music\starfm_song_logger\starfm_song_logger\playlist.txt
+2026-10-09 21:23:39,092 | INFO | Audio window: 12s | recognition start interval: 12s | confirmations: 2
+2026-10-09 21:23:39,092 | INFO | No full broadcast is saved; only the rolling in-memory buffer is retained.
+2026-10-09 21:23:39,092 | INFO | Connecting to the live audio stream...
+2026-10-09 21:23:39,092 | INFO | Monitoring stopped. Playlist files are saved.
+2026-10-09 21:23:39,092 | ERROR | Fatal error: 'Shazam' object does not support the asynchronous context manager protocol
+Traceback (most recent call last):
+  File "C:\Users\creat\dev\music\starfm_song_logger\starfm_song_logger\starfm_logger.py", line 371, in main
+    asyncio.run(monitor(args))
+  File "C:\Users\creat\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\creat\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\creat\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\creat\dev\music\starfm_song_logger\starfm_song_logger\starfm_logger.py", line 247, in monitor
+    async with Shazam() as shazam:
+               ^^^^^^^^
+TypeError: 'Shazam' object does not support the asynchronous context manager protocol
+2026-10-09 21:24:13,502 | INFO | Monitoring started. Press Ctrl+C to stop.
+2026-10-09 21:24:13,502 | INFO | Results: C:\Users\creat\dev\music\starfm_song_logger\starfm_song_logger\playlist.csv
+2026-10-09 21:24:13,502 | INFO | Text list: C:\Users\creat\dev\music\starfm_song_logger\starfm_song_logger\playlist.txt
+2026-10-09 21:24:13,502 | INFO | Audio window: 12s | recognition start interval: 12s | confirmations: 2
+2026-10-09 21:24:13,508 | INFO | No full broadcast is saved; only the rolling in-memory buffer is retained.
+2026-10-09 21:24:13,519 | INFO | Connecting to the live audio stream...
+2026-10-09 21:24:13,520 | INFO | Monitoring stopped. Playlist files are saved.
+2026-10-09 21:24:13,524 | ERROR | Fatal error: 'Shazam' object does not support the asynchronous context manager protocol
+Traceback (most recent call last):
+  File "C:\Users\creat\dev\music\starfm_song_logger\starfm_song_logger\starfm_logger.py", line 371, in main
+    asyncio.run(monitor(args))
+  File "C:\Users\creat\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\creat\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\creat\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\creat\dev\music\starfm_song_logger\starfm_song_logger\starfm_logger.py", line 247, in monitor
+    async with Shazam() as shazam:
+               ^^^^^^^^
+TypeError: 'Shazam' object does not support the asynchronous context manager protocol
+2026-10-09 21:29:21,767 | INFO | Monitoring started. Press Ctrl+C to stop.
+2026-10-09 21:29:21,768 | INFO | Results: C:\Users\creat\dev\music\starfm_song_logger\starfm_song_logger\playlist.csv
+2026-10-09 21:29:21,768 | INFO | Text list: C:\Users\creat\dev\music\starfm_song_logger\starfm_song_logger\playlist.txt
+2026-10-09 21:29:21,768 | INFO | Audio window: 12s | recognition start interval: 12s | confirmations: 2
+2026-10-09 21:29:21,768 | INFO | No full broadcast is saved; only the rolling in-memory buffer is retained.
+2026-10-09 21:29:21,775 | INFO | Connecting to the live audio stream...
+2026-10-09 21:29:21,801 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:29:24,813 | INFO | Connecting to the live audio stream...
+2026-10-09 21:29:24,836 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:29:27,858 | INFO | Connecting to the live audio stream...
+2026-10-09 21:29:27,896 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:29:30,900 | INFO | Connecting to the live audio stream...
+2026-10-09 21:29:30,922 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:29:33,935 | INFO | Connecting to the live audio stream...
+2026-10-09 21:29:33,993 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:29:37,011 | INFO | Connecting to the live audio stream...
+2026-10-09 21:29:37,062 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:29:40,075 | INFO | Connecting to the live audio stream...
+2026-10-09 21:29:40,103 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:29:43,127 | INFO | Connecting to the live audio stream...
+2026-10-09 21:29:43,193 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:29:46,208 | INFO | Connecting to the live audio stream...
+2026-10-09 21:29:46,259 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:29:49,271 | INFO | Connecting to the live audio stream...
+2026-10-09 21:29:49,314 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:29:52,337 | INFO | Connecting to the live audio stream...
+2026-10-09 21:29:52,388 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:29:55,410 | INFO | Connecting to the live audio stream...
+2026-10-09 21:29:55,437 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:29:58,452 | INFO | Connecting to the live audio stream...
+2026-10-09 21:29:58,479 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:30:01,496 | INFO | Connecting to the live audio stream...
+2026-10-09 21:30:01,519 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:30:04,539 | INFO | Connecting to the live audio stream...
+2026-10-09 21:30:04,583 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:30:07,594 | INFO | Connecting to the live audio stream...
+2026-10-09 21:30:07,626 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:30:10,641 | INFO | Connecting to the live audio stream...
+2026-10-09 21:30:10,691 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:30:13,708 | INFO | Connecting to the live audio stream...
+2026-10-09 21:30:13,737 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:30:16,771 | INFO | Connecting to the live audio stream...
+2026-10-09 21:30:16,835 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:30:19,850 | INFO | Connecting to the live audio stream...
+2026-10-09 21:30:19,883 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:30:22,898 | INFO | Connecting to the live audio stream...
+2026-10-09 21:30:22,931 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:30:25,945 | INFO | Connecting to the live audio stream...
+2026-10-09 21:30:25,994 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:30:29,003 | INFO | Connecting to the live audio stream...
+2026-10-09 21:30:29,028 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:30:32,071 | INFO | Connecting to the live audio stream...
+2026-10-09 21:30:32,111 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:30:35,133 | INFO | Connecting to the live audio stream...
+2026-10-09 21:30:35,182 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:30:38,199 | INFO | Connecting to the live audio stream...
+2026-10-09 21:30:38,266 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:30:41,286 | INFO | Connecting to the live audio stream...
+2026-10-09 21:30:41,348 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:30:44,387 | INFO | Connecting to the live audio stream...
+2026-10-09 21:30:44,431 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:30:47,477 | INFO | Connecting to the live audio stream...
+2026-10-09 21:30:47,535 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:30:50,566 | INFO | Connecting to the live audio stream...
+2026-10-09 21:30:50,625 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:30:53,653 | INFO | Connecting to the live audio stream...
+2026-10-09 21:30:53,687 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:30:56,698 | INFO | Connecting to the live audio stream...
+2026-10-09 21:30:56,729 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:30:59,758 | INFO | Connecting to the live audio stream...
+2026-10-09 21:30:59,821 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:31:02,841 | INFO | Connecting to the live audio stream...
+2026-10-09 21:31:02,878 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:31:05,918 | INFO | Connecting to the live audio stream...
+2026-10-09 21:31:05,991 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:31:09,008 | INFO | Connecting to the live audio stream...
+2026-10-09 21:31:09,066 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:31:12,087 | INFO | Connecting to the live audio stream...
+2026-10-09 21:31:12,134 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:31:15,170 | INFO | Connecting to the live audio stream...
+2026-10-09 21:31:15,224 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:31:18,247 | INFO | Connecting to the live audio stream...
+2026-10-09 21:31:18,281 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:31:21,299 | INFO | Connecting to the live audio stream...
+2026-10-09 21:31:21,321 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:31:24,363 | INFO | Connecting to the live audio stream...
+2026-10-09 21:31:24,412 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:31:27,440 | INFO | Connecting to the live audio stream...
+2026-10-09 21:31:27,474 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:31:30,523 | INFO | Connecting to the live audio stream...
+2026-10-09 21:31:30,564 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:31:33,599 | INFO | Connecting to the live audio stream...
+2026-10-09 21:31:33,657 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:31:36,685 | INFO | Connecting to the live audio stream...
+2026-10-09 21:31:36,734 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:31:39,765 | INFO | Connecting to the live audio stream...
+2026-10-09 21:31:39,810 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:31:42,829 | INFO | Connecting to the live audio stream...
+2026-10-09 21:31:42,876 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:31:45,906 | INFO | Connecting to the live audio stream...
+2026-10-09 21:31:45,939 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:31:48,951 | INFO | Connecting to the live audio stream...
+2026-10-09 21:31:48,991 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:31:52,031 | INFO | Connecting to the live audio stream...
+2026-10-09 21:31:52,084 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:31:55,123 | INFO | Connecting to the live audio stream...
+2026-10-09 21:31:55,184 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:31:58,218 | INFO | Connecting to the live audio stream...
+2026-10-09 21:31:58,281 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:32:01,303 | INFO | Connecting to the live audio stream...
+2026-10-09 21:32:01,330 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:32:04,380 | INFO | Connecting to the live audio stream...
+2026-10-09 21:32:04,428 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:32:07,470 | INFO | Connecting to the live audio stream...
+2026-10-09 21:32:07,507 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:32:10,543 | INFO | Connecting to the live audio stream...
+2026-10-09 21:32:10,593 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:32:13,607 | INFO | Connecting to the live audio stream...
+2026-10-09 21:32:13,635 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:32:16,653 | INFO | Connecting to the live audio stream...
+2026-10-09 21:32:16,693 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:32:19,731 | INFO | Connecting to the live audio stream...
+2026-10-09 21:32:19,770 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:32:22,813 | INFO | Connecting to the live audio stream...
+2026-10-09 21:32:22,844 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:32:25,884 | INFO | Connecting to the live audio stream...
+2026-10-09 21:32:25,927 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:32:28,961 | INFO | Connecting to the live audio stream...
+2026-10-09 21:32:29,012 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:32:32,023 | INFO | Connecting to the live audio stream...
+2026-10-09 21:32:32,046 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:32:35,078 | INFO | Connecting to the live audio stream...
+2026-10-09 21:32:35,120 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:32:38,169 | INFO | Connecting to the live audio stream...
+2026-10-09 21:32:38,224 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:32:41,241 | INFO | Connecting to the live audio stream...
+2026-10-09 21:32:41,265 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:32:44,296 | INFO | Connecting to the live audio stream...
+2026-10-09 21:32:44,342 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:32:47,383 | INFO | Connecting to the live audio stream...
+2026-10-09 21:32:47,448 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:32:50,490 | INFO | Connecting to the live audio stream...
+2026-10-09 21:32:50,550 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:32:53,569 | INFO | Connecting to the live audio stream...
+2026-10-09 21:32:53,619 | WARNING | Audio stream disconnected; reconnecting in 3 seconds.
+2026-10-09 21:32:55,402 | INFO | Monitoring stopped. Playlist files are saved.
+2026-10-09 21:34:27,648 | INFO | Monitoring started. Press Ctrl+C to stop.
+2026-10-09 21:34:27,650 | INFO | Results: C:\Users\creat\dev\music\starfm_song_logger\starfm_song_logger\playlist.csv
+2026-10-09 21:34:27,651 | INFO | Text list: C:\Users\creat\dev\music\starfm_song_logger\starfm_song_logger\playlist.txt
+2026-10-09 21:34:27,651 | INFO | Audio window: 12s | recognition start interval: 12s | confirmations: 2
+2026-10-09 21:34:27,651 | INFO | No full broadcast is saved; only the rolling in-memory buffer is retained.
+2026-10-09 21:34:27,656 | INFO | Connecting to the live audio stream...
+2026-10-09 21:34:27,684 | WARNING | Audio stream ended (FFmpeg exit code 4294967274): [in#0 @ 0000021b491f4c40] Error opening input: Invalid argument | Error opening input file  https://solid2.streamupsolutions.com/proxy/starfm953?mp=/;type=mp3&1791569729873. | Error opening input files: Invalid argument. Reconnecting in 3 seconds.
+2026-10-09 21:34:30,701 | INFO | Connecting to the live audio stream...
+2026-10-09 21:34:30,762 | WARNING | Audio stream ended (FFmpeg exit code 4294967274): [in#0 @ 00000269bc473bc0] Error opening input: Invalid argument | Error opening input file  https://solid2.streamupsolutions.com/proxy/starfm953?mp=/;type=mp3&1791569729873. | Error opening input files: Invalid argument. Reconnecting in 3 seconds.
+2026-10-09 21:34:33,784 | INFO | Connecting to the live audio stream...
+2026-10-09 21:34:33,832 | WARNING | Audio stream ended (FFmpeg exit code 4294967274): [in#0 @ 00000232f082cf40] Error opening input: Invalid argument | Error opening input file  https://solid2.streamupsolutions.com/proxy/starfm953?mp=/;type=mp3&1791569729873. | Error opening input files: Invalid argument. Reconnecting in 3 seconds.
+2026-10-09 21:34:36,864 | INFO | Connecting to the live audio stream...
+2026-10-09 21:34:36,911 | WARNING | Audio stream ended (FFmpeg exit code 4294967274): [in#0 @ 00000149f6dd33c0] Error opening input: Invalid argument | Error opening input file  https://solid2.streamupsolutions.com/proxy/starfm953?mp=/;type=mp3&1791569729873. | Error opening input files: Invalid argument. Reconnecting in 3 seconds.
+2026-10-09 21:34:39,933 | INFO | Connecting to the live audio stream...
+2026-10-09 21:34:39,979 | WARNING | Audio stream ended (FFmpeg exit code 4294967274): [in#0 @ 000001d88e42d100] Error opening input: Invalid argument | Error opening input file  https://solid2.streamupsolutions.com/proxy/starfm953?mp=/;type=mp3&1791569729873. | Error opening input files: Invalid argument. Reconnecting in 3 seconds.
+2026-10-09 21:34:41,678 | INFO | Monitoring stopped. Playlist files are saved.
+2026-10-09 21:39:08,648 | INFO | Monitoring started. Press Ctrl+C to stop.
+2026-10-09 21:39:08,650 | INFO | Using Star FM stream URL: https://solid2.streamupsolutions.com/proxy/starfm953?mp=/;type=mp3&1791569729873
+2026-10-09 21:39:08,650 | INFO | Results: C:\Users\creat\dev\music\starfm_song_logger\starfm_song_logger\playlist.csv
+2026-10-09 21:39:08,652 | INFO | Text list: C:\Users\creat\dev\music\starfm_song_logger\starfm_song_logger\playlist.txt
+2026-10-09 21:39:08,652 | INFO | Audio window: 12s | recognition start interval: 12s | confirmations: 2
+2026-10-09 21:39:08,654 | INFO | No full broadcast is saved; only the rolling in-memory buffer is retained.
+2026-10-09 21:39:08,660 | INFO | Connecting to the live audio stream...
+2026-10-09 21:39:09,290 | INFO | Audio received; filling the initial sample buffer.
+2026-10-09 21:39:11,217 | INFO | Initial buffer ready; recognition is beginning.
+2026-10-09 21:39:11,966 | INFO | Matched: Austin Marin - Loving You
+2026-10-09 21:39:21,334 | INFO | Matched: Austin Marin - Loving You
+2026-10-09 21:39:21,343 | INFO | LOGGED: Austin Marin - Loving You
+2026-10-09 21:39:33,414 | INFO | Matched: Austin Marin - Loving You
+2026-10-09 21:39:45,444 | INFO | Matched: Austin Marin - Loving You
+2026-10-09 21:39:57,404 | INFO | Matched: Austin Marin - Loving You
+2026-10-09 21:40:09,617 | INFO | Matched: Austin Marin - Loving You
+2026-10-09 21:40:21,686 | INFO | Matched: Austin Marin - Loving You
+2026-10-09 21:40:33,475 | INFO | Matched: Austin Marin - Loving You
+2026-10-09 21:40:45,431 | INFO | Matched: Austin Marin - Loving You
+2026-10-09 21:40:57,521 | INFO | Matched: Austin Marin - Loving You
+2026-10-09 21:41:09,583 | INFO | Matched: Austin Marin - Loving You
+2026-10-09 21:41:21,432 | INFO | Matched: Austin Marin - Loving You
+2026-10-09 21:41:33,804 | INFO | Matched: Austin Marin - Loving You
+2026-10-09 21:41:45,444 | INFO | Matched: Austin Marin - Loving You
+2026-10-09 21:41:57,724 | INFO | Matched: Austin Marin - Loving You
+2026-10-09 21:42:09,492 | INFO | Matched: Austin Marin - Loving You
+2026-10-09 21:42:21,464 | INFO | Matched: Austin Marin - Loving You
+2026-10-09 21:42:33,553 | INFO | Matched: Austin Marin - Loving You
+2026-10-09 21:42:45,786 | INFO | Matched: Austin Marin - Loving You
+2026-10-09 21:42:57,464 | INFO | Matched: Austin Marin - Loving You
+2026-10-09 21:43:09,735 | INFO | Matched: Austin Marin - Loving You
+2026-10-09 21:43:21,603 | INFO | Matched: Austin Marin - Loving You
+2026-10-09 21:43:33,700 | INFO | Matched: Austin Marin - Loving You
+2026-10-09 21:43:45,517 | INFO | Matched: harmovoid - The Last Bus
+2026-10-09 21:43:57,491 | INFO | No song match for this sample; this is not proof it was an ad.
+2026-10-09 21:44:09,806 | INFO | No song match for this sample; this is not proof it was an ad.
+2026-10-09 21:44:21,519 | INFO | No song match for this sample; this is not proof it was an ad.
+2026-10-09 21:44:33,342 | INFO | No song match for this sample; this is not proof it was an ad.
+2026-10-09 21:44:45,599 | INFO | No song match for this sample; this is not proof it was an ad.
+2026-10-09 21:44:57,553 | INFO | No song match for this sample; this is not proof it was an ad.
+2026-10-09 21:45:09,431 | INFO | No song match for this sample; this is not proof it was an ad.
+2026-10-09 21:45:21,544 | INFO | No song match for this sample; this is not proof it was an ad.
+2026-10-09 21:45:33,748 | INFO | No song match for this sample; this is not proof it was an ad.
+2026-10-09 21:45:45,442 | INFO | No song match for this sample; this is not proof it was an ad.
+2026-10-09 21:45:57,376 | INFO | Matched: Fallen Vessel - The Ocean Between
+2026-10-09 21:46:09,560 | INFO | Matched: Fallen Vessel - The Ocean Between
+2026-10-09 21:46:09,565 | INFO | LOGGED: Fallen Vessel - The Ocean Between
+2026-10-09 21:46:21,435 | INFO | Matched: Fallen Vessel - The Ocean Between
+2026-10-09 21:46:33,454 | INFO | Matched: Fallen Vessel - The Ocean Between
+2026-10-09 21:46:45,461 | INFO | Matched: Fallen Vessel - The Ocean Between
+2026-10-09 21:46:57,746 | INFO | Matched: Fallen Vessel - The Ocean Between
+2026-10-09 21:47:09,653 | INFO | Matched: Fallen Vessel - The Ocean Between
+2026-10-09 21:47:21,593 | INFO | Matched: Fallen Vessel - The Ocean Between
+2026-10-09 21:47:33,444 | INFO | Matched: Fallen Vessel - The Ocean Between
+2026-10-09 21:47:45,485 | INFO | Matched: Fallen Vessel - The Ocean Between
+2026-10-09 21:47:57,478 | INFO | Matched: Fallen Vessel - The Ocean Between
+2026-10-09 21:48:09,575 | INFO | Matched: Fallen Vessel - The Ocean Between
+2026-10-09 21:48:21,524 | INFO | Matched: Fallen Vessel - The Ocean Between
+2026-10-09 21:48:33,497 | INFO | Matched: Fallen Vessel - The Ocean Between
+2026-10-09 21:48:45,451 | INFO | Matched: Fallen Vessel - The Ocean Between
+2026-10-09 21:48:57,464 | INFO | Matched: Fallen Vessel - The Ocean Between
+2026-10-09 21:49:09,459 | INFO | Matched: Fallen Vessel - The Ocean Between
+2026-10-09 21:49:21,445 | INFO | Matched: Fallen Vessel - The Ocean Between
+2026-10-09 21:49:33,534 | INFO | Matched: Fallen Vessel - The Ocean Between
+2026-10-09 21:49:45,570 | INFO | Matched: Fallen Vessel - The Ocean Between
+2026-10-09 21:49:57,441 | INFO | Matched: Fallen Vessel - The Ocean Between
+2026-10-09 21:50:09,373 | INFO | No song match for this sample; this is not proof it was an ad.
