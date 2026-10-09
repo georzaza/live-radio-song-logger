@@ -4,7 +4,7 @@
 
 A small Python tool that can monitor radio stations and automatically build a playlist of the songs it recognizes.
 
-Tested and found working for STAR FM 95.3
+Tested and found working for the greek station STAR FM 95.3
 
 ## How it works
 
