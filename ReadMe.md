@@ -2,7 +2,9 @@
 
 ## Purpose
 
-A small Python tool that monitors **Star FM 95.3 Volos** and automatically builds a playlist of the songs it recognizes.
+A small Python tool that can monitor radio stations and automatically build a playlist of the songs it recognizes.
+
+Tested and found working for STAR FM 95.3
 
 ## How it works
 
