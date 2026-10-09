@@ -56,4 +56,3 @@ Tested and found working for STAR FM 95.3
 * `playlist.txt` — readable song list.
 * `starfm_logger.log` — troubleshooting information.
 
-**In one sentence:** This project listens to Star FM 95.3 on demand and builds a local playlist of songs identified through ShazamIO, with V2 using a slower recognition interval to reduce requests.
