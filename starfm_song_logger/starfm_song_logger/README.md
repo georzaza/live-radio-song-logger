@@ -43,13 +43,16 @@ pip install -r requirements.txt
 
 If you already created `.venv` with Python 3.13 and installation failed, remove that environment first from Command Prompt with `rmdir /s /q .venv`, then run the commands above. Do not install Rust for this setup; use Python 3.12 so pip can use the prebuilt Windows wheel.
 
-## 4. Stream URL (already configured)
+## 4. Stream URL
 
-The script and `start.bat` already use the direct Star FM 95.3 MP3 stream that was successfully tested with FFmpeg:
+Star FM 95.3 MP3 stream: `https://solid2.streamupsolutions.com/proxy/starfm953?mp=/;type=mp3&1791569729873`
 
-`https://solid2.streamupsolutions.com/proxy/starfm953?mp=/;type=mp3&1791569729873`
-
-You do not need to paste the URL when starting. The script also trims leading/trailing whitespace from any URL supplied with `--url` because a leading space can cause FFmpeg's `Invalid argument` error.
+To find the stream URL for the station you want to log tracks for:
+1. Open the station in the browser
+2. Enable Developer Tools & go to Network tab
+3. Enable 'Preserve log' & reload the page
+4. Find the 'media' Type URL.
+5. Use the URL in the script instead of the preconfigured one and re-run `start.bat`
 
 ## 5. Start monitoring
 
